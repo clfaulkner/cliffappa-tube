@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <!-- CLiFApps Tube vAlpha -->
 <!-- SECTION todo's' -->
+<!-- TODO clean up styles -->
+<!-- TODO delete unused comments -->
 
 <html lang="en">
 <head>
@@ -12,13 +14,6 @@
   <title>CLiFApps Tube</title>
 </head>
 <body>
-
-<!-- ******************************* -->
-<!-- SECTION -->
-<h1>Holding Pattern</h1>
-
-<!-- ******************************* -->
-<!-- SECTION banner -->
 <!-- banner items
       menu show icon
       back to main button (youtube button)
@@ -28,7 +23,35 @@
       messages btn
       user btn
 -->
-<section id="banner" class="w3-top w3-cell-row w3-white w3-padding">
+<main title='' id='main-body' class='' style=''>
+<!-- ******************************* -->
+<!-- SECTION sidebar nav-->
+  <section title='sidebar nav' id='side-nav' class='w3-sidebar w3-bar-block' style='width: 15%;'>
+    <div class="w3-bar-item w3-padding-16 w3-button w3-hover-none w3-center">
+      <button class="w3-button w3-red w3-hover-red w3-round-xxlarge">ClifAppsTube</button>
+    </div>
+      <div class="w3-bar-item w3-padding-small" style="background-color: lightgray;">
+        <span class="material-icons" style="color: red;">home</span>
+        <a href="#" style="margin-left: 10px; text-decoration: none;">Home</a>
+      </div>
+<!-- TODO duplicate above div for other button-list items -->
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </section>
+<!-- ******************************* -->
+<!-- SECTION banner-->
+  <section title='' id='nav-banner' class='w3-container w3-border-bottom w3-padding-small' style='margin-left: 15%;'>
+    <!-- <h3>NAVBAR</h3> -->
+    <nav class="w3-bar">
+      <span class="material-icons w3-right">video_call</span>
+      <span class="material-icons w3-right" style="margin-right: 200px;">mic</span>
+      <button class="w3-bar-item w3-button w3-light-gray w3-right" style="margin-right: 10px;"><span class="material-icons">youtube_searched_for</span></button>
+      <input type="text" class="w3-bar-item w3-input w3-white w3-border w3-right" placeholder="Search..">
+    </nav>
+  </section>
+</main>
+
+<!-- <section id="banner" class="w3-top w3-cell-row w3-white w3-padding">
   <div id="cell-left" class=" w3-cell" style="width: 20%;">
     <a href="#" class="w3-button">Home</a>
   </div>
@@ -38,7 +61,7 @@
   <div class="w3-cell">
     <span class="material-icons">mic</span>
   </div>
-</section>
+</section> -->
 
 <!-- ******************************* -->
 <!-- SECTION side menu -->
@@ -54,9 +77,6 @@
 <!-- ******************************* -->
 <!-- SECTION category tags -->
 <!-- cat tags: various -->
-  <div class="w3-border-top">
-
-  </div>
 
 
 <!-- ******************************* -->
